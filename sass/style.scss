@@ -1,0 +1,191 @@
+@import 'variables', 'mixins';
+
+
+html {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $paleBlue;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: $parSize;    
+    font-family: $font;
+
+    .card { 
+        width: clamp(324px, 450px, 451px);
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2.5rem; 
+        border-radius: 1.5em;
+        overflow: hidden;
+        background-color: white;
+        box-shadow: 0px 15px 25px hsla(245, 25%, 71%, 0.349);
+        
+        .hero {
+            margin: 0;
+        }
+        .hero-image {
+            max-width: 100%;
+            display: block;
+        }
+        .summary {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+
+            h1 {
+                color: $darkBlue;
+                font-size: clamp(20px, 27px, 28px);
+                font-weight: 900;
+                margin-top: 2rem;
+            }
+
+            p {
+                width: 25ch;
+                margin-left: auto;
+                margin-right: auto;
+                color: $desaturatedBlue;
+                font-weight: 500;
+                line-height: 1.7;
+            }
+        }
+    
+        .wrapper-big-section { 
+            margin: 1.7rem auto;
+            width: 345px;
+            height: 100px;
+            border-radius: 15px;
+            border: none;
+            background-color: $veryPaleBlue;
+            display: flex;
+            flex-direction: grid;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            grid-template-columns: 20% 60% 20%;
+        
+            .music-icon {
+                height: 50px;
+                width: 50px;
+                margin: 0 0 0 1.25rem;            
+            }
+
+            .wrapper-small { 
+                margin: 0 0 0 1.25rem;                
+                display: flex;
+                flex-direction:column;
+                line-height: 1.7;
+                align-items: center;
+                align-content: center;
+                justify-content: left;
+
+                .annual-plan {
+                    color: $darkBlue;
+                    font-weight: 900;
+                }
+
+                .annual-cost {
+                    color: $desaturatedBlue;
+                    font-weight: 500;
+                }
+            }
+
+            .change-link {
+                margin: 0 1.25rem 0 5.5rem;                
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 700;
+            }    
+
+            a:link {
+                color: $brigntBlue;
+            }
+            a:visited {
+                color: $brigntBlue;
+            }
+            a:hover {
+                color: $purpleLink;
+                text-decoration: none;
+            }
+            a:active {
+                color: $purpleLink;
+                text-decoration: none;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+            .primary-button { 
+                width: 345px;
+                padding: 15px 0px;
+                margin-bottom: 25px;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0px 15px 25px hsla(245, 74%, 60%, 0.349);
+                transition: all 0.3s ease 0s;
+                cursor: pointer;
+                outline: none;
+                background-color: $brigntBlue;
+                font-size: $parSize;
+                color: $veryPaleBlue;
+                font-weight: 700;
+                text-decoration: none;
+
+                    &:hover {
+                    background-color: $buttonHover;
+                    color: $veryPaleBlue;
+                    text-decoration: none;
+                    }
+            }
+            
+            .secondary-button {
+                text-decoration: none;
+                color: $desaturatedBlue;
+                font-weight: 700;
+                cursor: pointer;
+                margin-top: 10px;
+                    
+                    &:hover {
+                    color: $darkBlue;
+                    }
+            }
+        }
+    }
+    
+    .attribution {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 5px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        }
+    
+        a {
+            text-decoration: none;
+            color: $purpleLink;
+        }   
+    
+}
