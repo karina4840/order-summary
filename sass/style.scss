@@ -115,17 +115,10 @@ body {
                 justify-content: right;
             }    
 
-            a:link {
+            a:link, a:visited{
                 color: $brigntBlue;
             }
-            a:visited {
-                color: $brigntBlue;
-            }
-            a:hover {
-                color: $purpleLink;
-                text-decoration: none;
-            }
-            a:active {
+            a:hover, a:active {
                 color: $purpleLink;
                 text-decoration: none;
             }
@@ -245,7 +238,7 @@ body {
         width: 50%;
         
         .card {
-            width: 50%;
+            width: 45%;
 
             .summary { 
                 .summary-title {

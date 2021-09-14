@@ -158,20 +158,11 @@ body .card .wrapper-big-section .change-link {
           justify-content: right;
 }
 
-body .card .wrapper-big-section a:link {
+body .card .wrapper-big-section a:link, body .card .wrapper-big-section a:visited {
   color: #3829e0;
 }
 
-body .card .wrapper-big-section a:visited {
-  color: #3829e0;
-}
-
-body .card .wrapper-big-section a:hover {
-  color: #3e52a3;
-  text-decoration: none;
-}
-
-body .card .wrapper-big-section a:active {
+body .card .wrapper-big-section a:hover, body .card .wrapper-big-section a:active {
   color: #3e52a3;
   text-decoration: none;
 }
@@ -284,7 +275,7 @@ body a {
     width: 50%;
   }
   body .card {
-    width: 50%;
+    width: 45%;
   }
   body .card .summary .summary-title {
     font-size: 23px;
