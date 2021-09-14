@@ -178,19 +178,20 @@ body {
         text-align: center;
         font-weight: 700;
         font-size: 12px;
-        }
-    
-        a {
-            text-decoration: none;
-            color: $purpleLink;
-        }   
-    
+        } 
+        
+    a {
+        text-decoration: none;
+        color: $purpleLink;
+    }      
 }
 
 
+// media queries for different size screens
 body {
+    // desktop size between 700px and 1100px
     @media (min-width: $desktopSmall) 
-    and (max-width: $desktopBig - 1px) {
+    and (max-width: $desktopBig) {
 
         background-image: $bgDesktop;
         width: 70%;
@@ -232,7 +233,7 @@ body {
   
         }
     }
-
+    // desktop size between 1100px and above
     @media (min-width: $desktopBig) {
         background-image: $bgDesktop;
         width: 50%;
@@ -274,7 +275,7 @@ body {
   
         }
     }
-
+    // mobile size between 400px and below
     @media (max-width: $mobileBig) {
         background-image: $bgMobile;
         width: 100%;
@@ -291,7 +292,7 @@ body {
             }
         }
     }
-
+    // mobile size between 325px and below
     @media (max-width: $mobileVSmall) {
         background-image: $bgMobile;
         width: 100%; 
