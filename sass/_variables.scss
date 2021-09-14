@@ -1,10 +1,9 @@
 // font variables
-
 $font: 'Red Hat Display', sans-serif;
 $parSize: 16px;
+$parSmall: 12px;
 
-// color variables
-
+// color variable
 // primary
 $paleBlue: hsl(225, 100%, 94%);
 $brigntBlue: hsl(245, 75%, 52%);
@@ -16,5 +15,14 @@ $lightBlue: rgba(227, 233, 252, 0.9);
 $purpleLink: hsl(228, 45%, 44%);
 $buttonHover: hsl(245, 67%, 60%);
 
+//background images
 $bgDesktop: url(https://raw.githubusercontent.com/karina4840/oreder-summary/839b3be89d3688704fadc284585f143d2f77b004/sass/resources/pattern-background-desktop.svg);
-//$bgMobile: ;
+$bgMobile: url(https://raw.githubusercontent.com/karina4840/order-summary/main/sass/resources/pattern-background-mobile.svg);
+
+
+//breakpoints
+$desktopSmall: 700px;
+$desktopBig: 1100px;
+
+$mobileBig: 400px;
+$mobileVSmall: 325px;
