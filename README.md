@@ -43,8 +43,10 @@
   <br>
   <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400> 
     
-- Desktop & Active elements <br>
-<img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=450 height=300/> <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300/>
+- Desktop <br>
+   <img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=450 height=300> 
+- Active elements  <br>                                                                                        
+   <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300/>
 
 ## Built with:
 
