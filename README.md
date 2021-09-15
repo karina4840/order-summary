@@ -1,5 +1,5 @@
 <div align="center"> 
-    <image align="center" height="50px" src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frontend mentor logo" >
+    <image align="center" height="50px" background-color: white" src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frontend mentor logo" >
 </div>
     
 <hr>   
@@ -41,14 +41,10 @@
 ## Overview
 - Mobile 
   <br>
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400/> 
-  <img src="image2.png" width="425"/> 
-
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400>
-- Desktop <br>
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=450 height=300 >
-- Active elements <br>
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300 >
+  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400> 
+    
+- Desktop & Active elements <br>
+<img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=450 height=300/> <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300/>
 
 ## Built with:
 
