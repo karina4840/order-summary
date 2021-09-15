@@ -35,18 +35,22 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Contact](#contact)
 
 ## Overview
-- Mobile
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400 >
-- Desktop
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=650 height=400 >
-- Active elements
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=650 height=400 >
+- Mobile 
+  <br>
+  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400/> 
+  <img src="image2.png" width="425"/> 
 
-### Built with:
+  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400>
+- Desktop <br>
+  <img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=450 height=300 >
+- Active elements <br>
+  <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300 >
+
+## Built with:
 
 - HTML
 - SASS
