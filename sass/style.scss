@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    width: 100%;
     min-height: 100vh;
     position: relative;
     left: 50%;
@@ -20,7 +21,7 @@ body {
     background-color: $paleBlue;
     background-repeat: no-repeat;
     background-size: contain;
-    font-size: $parSize;    
+    font-size: $parMid;    
     font-family: $font;
 
     .card { 
@@ -143,7 +144,7 @@ body {
                 cursor: pointer;
                 outline: none;
                 background-color: $brigntBlue;
-                font-size: $parSize;
+                font-size: $parMid;
                 color: $veryPaleBlue;
                 font-weight: 700;
                 text-decoration: none;
@@ -189,15 +190,15 @@ body {
 
 // media queries for different size screens
 body {
-    // desktop size between 700px and 1100px
+    // ------- DESKTOPS -------
+    // desktop size between 700px and 1000px
     @media (min-width: $desktopSmall) 
     and (max-width: $desktopBig) {
 
         background-image: $bgDesktop;
-        width: 70%;
         
         .card {
-            width: 50%;
+            width: 35%;
 
             .summary { 
                 .summary-title {
@@ -233,24 +234,24 @@ body {
   
         }
     }
-    // desktop size between 1100px and above
-    @media (min-width: $desktopBig) {
+    // desktop size between 1000px and 1200px
+    @media (min-width: $desktopBig) 
+    and (max-width: $desktopHuge) {
         background-image: $bgDesktop;
-        width: 50%;
         
         .card {
-            width: 45%;
+            width: 35%;
 
             .summary { 
                 .summary-title {
-                    font-size: 23px;
+                    font-size: 25px;
                     font-weight: 900;
                     margin-top: 1.7rem;
                 }    
 
                 .description {
                     line-height: 1.7;
-                    font-size: $parSmall;
+                    font-size: $parMid;
                 }
             }
 
@@ -262,19 +263,62 @@ body {
                 }
         
                 .wrapper-small, .change-link {
-                    font-size: $parSmall;
+                    font-size: $parMid;
                 }
             }
 
             .buttons {
                 .primary-button, .secondary-button {
-                    font-size: $parSmall;
-
+                    font-size: $parMid;
+                    margin: 10px auto;
                 }
             }
   
         }
     }
+    // desktop size between 1200px and above
+    @media (min-width: $desktopHuge) {
+        background-image: $bgDesktop;
+        
+        .card {
+            width: 30%;
+
+            .summary { 
+                .summary-title {
+                    font-size: 27px;
+                    font-weight: 900;
+                    margin-top: 1.7rem;
+                }    
+
+                .description {
+                    line-height: 1.7;
+                    font-size: $parBig;
+                }
+            }
+
+            .wrapper-big-section{
+
+                .music-icon{
+                    height: 50px;
+                    width: 50px;
+                }
+        
+                .wrapper-small, .change-link {
+                    font-size: $parBig;
+                }
+            }
+
+            .buttons {
+                .primary-button, .secondary-button {
+                    font-size: $parBig;
+                    margin: 20px auto;
+                }
+            }
+  
+        }
+    }
+
+    // ------- MOBILE -------
     // mobile size between 400px and below
     @media (max-width: $mobileBig) {
         background-image: $bgMobile;
@@ -313,6 +357,9 @@ body {
         
                 .wrapper-small, .change-link {
                     font-size: $parSmall;
+                }
+                .change-link {
+                    margin-left: 15px;
                 }
             }
 
