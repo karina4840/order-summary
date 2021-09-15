@@ -191,6 +191,15 @@ body {
 // media queries for different size screens
 body {
     // ------- DESKTOPS -------
+    // desktop size 700px and below
+    @media (max-width: $desktopSmall) {
+        background-image: $bgDesktop;
+        
+        .card {
+            width: 70%;
+        }
+
+    }
     // desktop size between 700px and 1000px
     @media (min-width: $desktopSmall) 
     and (max-width: $desktopBig) {
