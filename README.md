@@ -21,10 +21,7 @@
           Frontend Mentor Challenges
         </a>
          help you improve your coding skills by building realistic projects.
-        </p>
-        <h5> 
-          <a href="https://github.com/karina4840/frontend-solutions"> Main Page </a>
-        </h5>                                                    
+        </p>                                                    
     </div>
 </div>
 
