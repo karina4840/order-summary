@@ -43,11 +43,12 @@
 - Active elements  <br>                                                                                        
    <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300/>
 
-## Built with:
+## What is used:
 
 - HTML
 - SASS
 - Flexbox
+- Mobile-first workflow
 
 ##  Contact
 
