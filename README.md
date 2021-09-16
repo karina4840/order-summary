@@ -1,9 +1,9 @@
-<div align="center"> 
+<div align="center" background-color: "white"> 
     <a href="https://github.com/karina4840/frontend-solutions"> <img align="center" height="50px" src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frontend mentor logo"> </a>
     <p>*click to go back</p>
 </div>
     
-<hr>   
+***   
 
 <div align="center">
   <h3>
@@ -26,26 +26,20 @@
     </div>
 </div>
 
-<hr> 
-  
+***
+
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-- 
+
 ## Overview
 ### The challenge
-Users should be able to:
-- See hover states for interactive elements
+The challenge is to build out this order summary card component and get it looking as close to the design as possible.
+
 ### Screenshot
 - Mobile <br>
   <img src="https://github.com/karina4840/order-summary/blob/main/results/mobile.png" width=210 height=400> 
@@ -54,18 +48,17 @@ Users should be able to:
 - Active elements <br>
    <img src="https://github.com/karina4840/order-summary/blob/main/results/active%20elements.png" width=400>
 
-## Built with
-
+### Built with
 - Semantic HTML5 markup
 - SASS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
-##  Author
+***
 
+###  Author
 - Github: [@karina4840](https://github.com/karina4840)
-
 - Frontend Mentor: [@karina4840](https://www.frontendmentor.io/profile/karina4840)
 
 ---
