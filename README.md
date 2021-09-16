@@ -1,5 +1,6 @@
 <div align="center"> 
     <a href="https://github.com/karina4840/frontend-solutions"> <img align="center" height="50px" src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frontend mentor logo"> </a>
+    <p>*click to go back</p>
 </div>
     
 <hr>   
@@ -30,7 +31,7 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [Built with](#built-with)
+- [Filling](#filling)
 - [Contact](#contact)
 
 ## Overview
@@ -43,7 +44,7 @@
 - Active elements  <br>                                                                                        
    <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300/>
 
-## What is used:
+## Filling
 
 - HTML
 - SASS
