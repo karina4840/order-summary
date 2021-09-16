@@ -1,23 +1,18 @@
 <div align="center"> 
-    <image align="center" height="50px" background-color: white" src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frontend mentor logo" >
+    <a href="https://github.com/karina4840/frontend-solutions"> <img align="center" height="50px" src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="frontend mentor logo"> </a>
 </div>
     
 <hr>   
 
 <div align="center">
   <h3>
-    <a href="https://karina4840.github.io/order-summary/">
-      Live site
-    </a>
+    <a href="https://karina4840.github.io/order-summary/"> Live site </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/order-summary-html-and-sass--8omLcmBo">
-      Solution
-    </a>
+    <a href="https://www.frontendmentor.io/solutions/order-summary-html-and-sass--8omLcmBo"> Solution </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">
-      Challenge
-    </a>
-  </h3>
+    <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj"> Challenge </a>
+    <br>
+  </h3>                                                             
 </div>
 <div>
     <div align="center">
@@ -27,6 +22,9 @@
         </a>
          help you improve your coding skills by building realistic projects.
         </p>
+        <h5> 
+          <a href="https://github.com/karina4840/frontend-solutions"> Main Page </a>
+        </h5>                                                    
     </div>
 </div>
 
