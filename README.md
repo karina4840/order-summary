@@ -56,9 +56,10 @@ Users should be able to:
 
 ## Built with
 
-- HTML
+- Semantic HTML5 markup
 - SASS
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 ##  Author
