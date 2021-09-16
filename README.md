@@ -31,27 +31,37 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [Filling](#filling)
-- [Contact](#contact)
-
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+- 
 ## Overview
-- Mobile 
-  <br>
-  <img src="https://github.com/karina4840/order-summary/blob/main/design/mobile-design.jpg" width=210 height=400> 
-    
+### The challenge
+Users should be able to:
+- See hover states for interactive elements
+### Screenshot
+- Mobile <br>
+  <img src="https://github.com/karina4840/order-summary/blob/main/results/mobile.png" width=210 height=400> 
 - Desktop <br>
-   <img src="https://github.com/karina4840/order-summary/blob/main/design/desktop-design.jpg" width=450 height=300> 
-- Active elements  <br>                                                                                        
-   <img src="https://github.com/karina4840/order-summary/blob/main/design/active-states.jpg" width=450 height=300/>
+   <img src="https://github.com/karina4840/order-summary/blob/main/results/desktop.png" width=400>  
+- Active elements <br>
+   <img src="https://github.com/karina4840/order-summary/blob/main/results/active%20elements.png" width=400>
 
-## Filling
+## Built with
 
 - HTML
 - SASS
 - Flexbox
 - Mobile-first workflow
 
-##  Contact
+##  Author
 
 - Github: [@karina4840](https://github.com/karina4840)
 
